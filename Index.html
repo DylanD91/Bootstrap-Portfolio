@@ -1,48 +1,52 @@
 <!doctype html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
     <meta charset="UTF-8">
     <title>About | Dylan Dusenberry</title>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   
 </head>
   
   <body>
-       <header id="masthead">
-          <div class="container">
-            <a href="index.html" id="logo">Dylan Dusenberry</a>
+   
       
-            
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand" href="#">Dylan Dusenberry</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
+                      <a class="nav-link disabled" href="contact.html">Contact</a>
                     </li>
                   </ul>
+                  <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
                 </div>
-              </nav>
-
+              </nav>     
+             
       </div>
     </header>
+    
     
     <div id="main-container" class="container">
       <section class="main-section">
         <h1>About Me</h1>
-        <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/1796661_729488167129368_2991743479308399231_n.jpg?_nc_cat=100&oh=45b6051df95b0c0a90743ce96394d6ec&oe=5C525BEC" class="img-fluid" alt="Responsive image">
+        <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/1796661_729488167129368_2991743479308399231_n.jpg?_nc_cat=100&oh=45b6051df95b0c0a90743ce96394d6ec&oe=5C525BEC" style="max-width:100%;height:auto;">
         
         <p>Dylan Dusenberry is currently a new student for Northwestern's Coding Bootcamp. 
          While learning and gaining new skills through the course, she is also
@@ -58,10 +62,10 @@
     </div>
   
     <footer>
-      <div class="container">
-        Copyright &copy; 
-      </div>
-    </footer>
+        <div class="container">
+            Copyright &copy; 
+          </div>
+        </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -57,7 +57,7 @@ body {
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
-    overflow: auto;
+    overflow: auto-x;
     color: #ffffff;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
